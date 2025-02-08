@@ -1,7 +1,8 @@
 Jenkins Essentials 🚀
 🌟 Introduction to CI Process
 What is Continuous Integration (CI)?
-Continuous Integration is a software development practice where developers frequently integrate their code into a shared repository. Each integration is automatically verified by:
+Continuous Integration is a software development practice where developers frequently integrate their code into a shared repository. 
+Each integration is automatically verified by:
 
 Automated Build Processes 📦
 Automated Testing ✅
@@ -73,7 +74,8 @@ Jenkins is a powerful tool for CI/CD with robust features and plugins.
 Installation involves adding repositories, installing Java, and setting up Jenkins on a Linux server.
 Jenkins Essentials: Freestyle Job and Git Plugin
 🚀 Create Your First Freestyle Job
-A Freestyle Job in Jenkins is a basic project that allows you to configure and automate simple tasks, such as building code or running scripts. Here's how to create your first freestyle job:
+A Freestyle Job in Jenkins is a basic project that allows you to configure and automate simple tasks, such as building code 
+or running scripts. Here's how to create your first freestyle job:
 
 Log in to Jenkins
 
@@ -465,7 +467,8 @@ Explored Maven phases and how to build .war artifacts using clean and package co
 
 🚀 Integrating Maven in Jenkins
 📌 Overview
-Maven is a widely used build automation tool for Java projects. Integrating Maven with Jenkins allows for continuous integration and automated builds.
+Maven is a widely used build automation tool for Java projects. Integrating Maven with Jenkins allows for
+continuous integration and automated builds.
 
 🛠️ Steps to Integrate Maven in Jenkins
 1️⃣ Install Maven in Jenkins
@@ -534,7 +537,8 @@ SonarQube is an open-source platform for continuous inspection of code quality. 
 The following contents have been quoted from [the following site](https://www.vultr.com/docs/install-sonarqube-on-ubuntu-20-04-lts).
 
 This document will talk about how to install SonarQube on Ubuntu 20.04LTS manually step by step, so that you know
-what is going on and learn from it. However, if you just want to use it, you can use: [SonarQube Docker Container](https://www.sonarqube.org/features/deployment/) 
+what is going on and learn from it. However, if you just want to use it, you can use: 
+[SonarQube Docker Container](https://www.sonarqube.org/features/deployment/) 
 There is also a vagrant box for SonarQube, but it is not official, so I do not recommend it.
 
 There are also many SonarQube tutorials on YouTube. (ex. [How to analyze code quality using SonarQube](https://youtu.be/2F3PYGtQr5k)).
@@ -821,7 +825,8 @@ Once a Quality Gate is applied, the build will fail if the criteria are not met.
 
 🎯 Integrating SonarQube with Jenkins
 1. Introduction
-Integrating SonarQube with Jenkins allows continuous code quality analysis in CI/CD pipelines. This integration ensures that code is analyzed for bugs, vulnerabilities, and code smells before deployment.
+Integrating SonarQube with Jenkins allows continuous code quality analysis in CI/CD pipelines. 
+This integration ensures that code is analyzed for bugs, vulnerabilities, and code smells before deployment.
 
 2. Setting Up SonarQube in Jenkins
 2.1 Install SonarQube Scanner Plugin
